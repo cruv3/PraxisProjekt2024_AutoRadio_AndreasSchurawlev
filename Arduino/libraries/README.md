@@ -8,7 +8,8 @@ Die MCP2515 Library basiert auf der ursprünglichen Github Projekt von [rnd-ash]
 
 ## Can_Communicator
 
-Zusätzlich zur MCP2515 Library enthält dieses Repository den Can_Communicator, der eine erweiterte Schnittstelle für die CAN-Kommunikation bereitstellt. Der Can_Communicator baut auf der MCP2515 Library auf und fügt nützliche Funktionen hinzu, um CAN-Frames zu erstellen, zu lesen und zu senden.
+Zusätzlich zur MCP2515 Library enthält dieses Repository den Can_Communicator, der eine erweiterte Schnittstelle für die CAN-Kommunikation bereitstellt. Der Can_Communicator baut auf der MCP2515 Library auf und fügt nützliche Funktionen hinzu, um CAN-Frames zu erstellen, zu lesen und zu senden. Die Entscheidung für die Verwendung dieser Bibliothek wurde getroffen, um von den erweiterten Funktionen des Can_Communicators zu profitieren, der eine benutzerfreundliche Schnittstelle und zusätzliche Funktionen bietet, die für das Projekt von Vorteil sind.
+
 
 ## Veränderungen
 
