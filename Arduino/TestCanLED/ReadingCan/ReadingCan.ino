@@ -32,5 +32,16 @@ void handleMessage(){
   {
     return;
   }
-  can->printFrame(read);
+  if(read->can_id == CAN_ID_LIGHTS)  
+  {
+    if(read->data[0] == CAN_DATA_LIGHTS_TURN_ON)
+    {
+      digitalWrite(LED_PIN, HIGH);
+    }
+    if(read->data[0] == CAN_DATA_LIGHTS_TURN_OFF)
+    {
+      digitalWrite(LED_PIN, LOW);
+    }
+    can->printFrame(read);
+  }
 }
