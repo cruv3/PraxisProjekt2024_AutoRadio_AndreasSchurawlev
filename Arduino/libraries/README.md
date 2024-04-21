@@ -4,7 +4,7 @@ Diese Bibliothek wurde erstellt, um die Verwendung des MCP2515 CAN-Controllers i
 
 ## Ursprung der Bibliothek
 
-Die MCP2515 Library basiert auf der ursprünglichen Github Projekt von [rnd-ash]([https://link-zur-originalen-bibliothek.com](https://github.com/rnd-ash/W203-canbus/tree/master/ARDUINO_CODE)).
+Die MCP2515 Library basiert auf der ursprünglichen Github Projekt von [rnd-ash](https://github.com/rnd-ash/W203-canbus/tree/master/ARDUINO_CODE).
 
 ## Can_Communicator
 
