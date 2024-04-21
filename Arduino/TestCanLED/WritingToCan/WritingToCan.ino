@@ -20,7 +20,7 @@ void setup() {
   pinMode(BUTTON_PIN, INPUT_PULLUP);
 
   SPI.begin();
-  can = new CANBUS_COMMUNICATOR(10, CAN_83K3BPS, MCP_16MHZ, CAN_B_DEF);
+  can = new CANBUS_COMMUNICATOR(10, CAN_83K3BPS, MCP_16MHZ);
   delay(100);
 }
 

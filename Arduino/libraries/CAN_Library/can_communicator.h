@@ -5,7 +5,6 @@
 #include "can.h"
 #include "mcp2515.h"
 
-#define CAN_B_DEF 'B'
 /**
  * Class to handle reading and writing to Canbus
  */
@@ -17,13 +16,13 @@ class CANBUS_COMMUNICATOR {
          * @param cs_pin CS Pin of MCP2515 module
          * @param speed Speed of Canbus
          */
-        CANBUS_COMMUNICATOR(uint8_t cs_pin, CAN_SPEED speed, char c);
+        CANBUS_COMMUNICATOR(uint8_t cs_pin, CAN_SPEED speed);
         /**
          * @param cs_pin CS Pin of MCP2515 module
          * @param speed Speed of Canbus
          * @param clock Clock frequency of MCP2515 module
          */
-        CANBUS_COMMUNICATOR(uint8_t cs_pin, CAN_SPEED speed, CAN_CLOCK clock, char c);
+        CANBUS_COMMUNICATOR(uint8_t cs_pin, CAN_SPEED speed, CAN_CLOCK clock);
         /**
          * Sends frame to bus
          */
@@ -40,7 +39,6 @@ class CANBUS_COMMUNICATOR {
         String frame_string;
         can_frame read;
         MCP2515 *mcp;
-        char busID;
 };
 
 #endif
