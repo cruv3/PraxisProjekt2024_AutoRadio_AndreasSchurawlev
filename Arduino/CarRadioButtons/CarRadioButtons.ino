@@ -25,12 +25,6 @@ bool handBrake_on = false;
 bool last_handBrake_state = false;
 bool current_handBrake_state = false;
 
-#define ANALOG_PIN 7 // Analoger Pin, an dem das analoge Signal gesendet wird'
-#define Button 9
-int custom_value = 0;
-int custom_value_before = 0;
-bool pressed = false;
-
 
 void setup() {
   Serial.begin(9600);
@@ -39,11 +33,6 @@ void setup() {
   Reverse_Init();
   Illumination_Init();
   HandBrake_Init();
-
-  pinMode(ANALOG_PIN, OUTPUT); // Setzen Sie den Pin als Ausgang
-  pinMode(Button, INPUT_PULLUP);
-
-  digitalWrite(ANALOG_PIN, HIGH);
 }
 
 void loop() {
