@@ -1,6 +1,3 @@
-#include <AceButton.h>
-using namespace ace_button;
-
 #define IGNITION_PIN 12
 #define RELAY_1_IGNITION_PIN 2
 bool ignition_on = false;
