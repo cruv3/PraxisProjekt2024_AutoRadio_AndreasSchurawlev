@@ -1,4 +1,4 @@
-## Test mit zwei Arduinos
+## Can-Daten vom Auto auslesen
 
 ### Ziel
 Das Ziel dieses Tests ist es, die CAN-Kommunikation zwischen dem Arduino mit dem MCP2515 und mit dem Auto herzustellen und sich die Can-Daten die durch das Auto laufen, anzuschauen und zu verstehen.
