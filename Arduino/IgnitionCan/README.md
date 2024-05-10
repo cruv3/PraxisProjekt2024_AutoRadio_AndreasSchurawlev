@@ -13,3 +13,6 @@ Der Prototype sieht follgendermaßen aus.
 Trotz dem senden des richtigen Signals für die Zündung, hat der Canbus-Adapter kein 12v Signal an das Auto-Radio gesendet. 
 Dies bedeutet, dass die Can-Id mit den jeweiligen Can-Daten falsch vom Canbus-Adapter erfasst werden, da der Canbus-Adapter nach bestimmten Canbus-IDs filtert.
 
+### Geholfener Github-Repo für die Can-Daten
+
+https://github.com/rnd-ash/W203-canbus/blob/master/DAT_TRANSLATOR/DECODED/w211_w219%20CAN%20B%20GERMAN.txt
