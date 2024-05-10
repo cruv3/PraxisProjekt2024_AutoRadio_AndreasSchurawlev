@@ -14,3 +14,7 @@ Der Mikrocontroller wird programmiert, um die CAN-Bus-Funktionalität des Adapte
 ### Erwartetes Ziel
 
 ![Prototyp-Schematik](https://github.com/cruv3/PraxisProjekt2024_AutoRadio_AndreasSchurawlev/blob/main/img/Ziel.png)
+
+### Ziel
+
+![Prototyp-Schematik](https://github.com/cruv3/PraxisProjekt2024_AutoRadio_AndreasSchurawlev/blob/main/img/ergebnis.png)
