@@ -1,5 +1,5 @@
 # Praxisprojekt 2024
-## Entwicklung eines mikrocontrollergesteuerten Systems zur
+## Entwicklung eines Systems zur
 ## Steuerung eines Auto-Radios außerhalb eines Fahrzeugs:
 ## Untersuchung und Ersatz des Canbus-Adapters
 
@@ -20,3 +20,8 @@ werden Funktionen implementiert, die es erm ̈oglichen, das Radio  ̈uber Schalt
 Taster zu bedienen. Der Prototyp wird ausf ̈uhrlich getestet, um sicherzustellen, dass
 alle Funktionen korrekt funktionieren und eine zuverl ̈assige Steuerung des Auto-Radios
 gewährleistet ist.
+
+
+### Erwartetes Ziel
+
+![Prototyp-Schematik](https://github.com/cruv3/PraxisProjekt2024_AutoRadio_AndreasSchurawlev/blob/main/img/Ziel.png)
