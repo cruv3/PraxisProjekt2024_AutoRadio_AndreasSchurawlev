@@ -5,7 +5,7 @@ CANBUS_COMMUNICATOR *can;
 
 #define IGNITION_PIN 3
 #define IGNITION_ID 0x0000
-#define IGNITION_DLC 3
+#define IGNITION_DLC 6
 
 int lastSwitchValue = HIGH;
 
